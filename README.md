@@ -1,6 +1,10 @@
-INSTRUCTIONS FOR USE OF PROJECT MATERIAL FOR 3D SHAPE RETRIEVAL AND SKETCHED SCENE RECONSTRUCTION USING TRIPLET EMBEDDING
+---
+#Read the original paper (here)[]
+---
 
-VALUES
+#INSTRUCTIONS FOR USE OF PROJECT MATERIAL FOR 3D SHAPE RETRIEVAL AND SKETCHED SCENE RECONSTRUCTION USING TRIPLET EMBEDDING
+
+##VALUES
 
 The values.json allows you to set:
 
@@ -10,36 +14,36 @@ The values.json allows you to set:
 - the name to be appended to the testing results text file.
 
 
-IMPORTS
+##IMPORTS
 
 This Project was written using Python 3.7.2
 
 Make sure you have the following Python packages imported, otherwise certain files will not work.
 
-torch
-torchvision
-torchsummary
-tkinter
-ttkthemes
-numpy
-PIL
-vpython
-models
-matplotlib
+- torch
+- torchvision
+- torchsummary
+- tkinter
+- ttkthemes
+- numpy
+- PIL
+- vpython
+- models
+- matplotlib
 
 The following packages you should have installed with regular Python.
 
-json
-csv
-os
-sys
-time
-glob
-random
-datetime
+- json
+- csv
+- os
+- sys
+- time
+- glob
+- random
+- datetime
 
 
-DATASET DOWNLOAD
+##DATASET DOWNLOAD
 
 https://drive.google.com/drive/folders/1HdqE51EP_X47Ri9AR8Xzj6oNrPD5DW7k
 
@@ -50,7 +54,7 @@ You can download the .pth files I generated for the Networks here:
 https://drive.google.com/drive/folders/1DzSoL3XkGTHjW-uNePfZDkXoj7EJ-d03?usp=sharing
 
 
-DATASET USE AND AUGMENTATION
+##DATASET USE AND AUGMENTATION
 
 In order for the files to work, the database needs to be in the format:
 
@@ -113,19 +117,19 @@ obj_conversation.py creates the models-obj folder by converting all the objects 
 view_creation.py creates the image folder by rendering views of the OFF files.
 
 
-NETWORK TRAINING
+##NETWORK TRAINING
 
 classifier_train.py will train the Classifier using the values in the values.json file.
 comparator_trian.py will train the Comparator using the values in the values.json file.
 Change the epoch values by modifying these values but they are current set to the optimum values of this dataset
 
 
-NETWORK TESTING
+##NETWORK TESTING
 
 In the Experiment folder you will find the results of the testing, which you can reproduce by running the final_testing.py
 
 
-INTERFACE
+##INTERFACE
 
 To use the interface, ensure that the dataset is in the correct format, there are the relevent path files and the room.png is in the same directory.
 
