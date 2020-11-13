@@ -61,15 +61,16 @@ https://drive.google.com/drive/folders/1DzSoL3XkGTHjW-uNePfZDkXoj7EJ-d03?usp=sha
 
 In order for the files to work, the database needs to be in the format:
 
+```
 datasetFolder
 |
 -> MODELS
-   |
-   -> images
+  |
+  -> images
       |
       -> classes[0]
 	 |
-	 -> mXXX_*.png
+	 -> mXXX_\*.png
 	 |
 	 -> ...
       |
@@ -104,6 +105,8 @@ datasetFolder
       -> XXXX.png
       |
       -> ...
+
+```
 
 Where categories.csv must be a .csv file containing the classifications for each model.
 
