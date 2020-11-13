@@ -1,0 +1,7 @@
+{
+    "datasetFolder" : "SHREC 2013",
+    "classifier" : "classifier2013.pth",
+    "comparator" : "comparator2013.pth",
+    "classes" : ["bed","beer-mug","bench","bicycle", "cabinet", "chair", "couch","door","floor_lamp","ladder","laptop","piano","potted_plant","table","tablelamp","tv","vase"],
+    "resultsName" : "2013"
+}
